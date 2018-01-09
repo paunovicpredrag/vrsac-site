@@ -1,0 +1,1281 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;	
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.topmenu_fullscreen {
+	width: 100%;
+	height: 30px;
+	background-color: #2c2c2c;
+	position: absolute;
+	z-index: -10;
+	border-bottom: 4px solid #cd2122;
+}
+#main_wrapper {
+	margin: 0 auto;
+	width: 1160px;
+	height: auto;	
+	overflow: hidden;	
+}
+
+.topmenu_behind {
+	height: 34px;
+	width: 100%;
+	background-color: #cd2122;
+}
+.topmenu_front {
+	height: 30px;
+	width: 100%;
+	background-color: #2c2c2c;
+}
+.search > input {
+	position: relative;
+	bottom: 4px;
+	border: none;
+	background-color: #373737;
+	color: #ccc;
+	opacity: 0.5;
+	height: 30px;
+	width: 130px;	
+}
+.search {
+	float: right;	
+}
+.search > i {
+	color: #ccc;
+	font-size: 1.5em;
+	cursor: pointer;	
+}
+.social_icons {
+	position: relative;
+	right: 20px;
+}
+.social_icons:before, .social_icons:after {
+	content: " ";
+	display: block;
+}
+.social_icons:after {
+	clear: both;
+}
+.social_icons > ul {
+	list-style-type: none;
+}
+.social_icons > ul > li > i {	
+	margin: 4px 5px 2px 5px;
+	opacity: 0.5;
+	float: right;
+	color: #ccc;
+	font-size: 1.3em;	
+}
+.social_icons > ul > li > i:hover {
+	cursor: pointer;
+	opacity: 1;
+	transition: 0.5s ease; 
+}
+.najnovije_vesti {
+	float: left;
+	height: 34px;
+	width: 140px;
+	background-color: #cd2122;	
+	text-align: center;	
+	
+}
+.najnovije_vesti > span {
+	font-size: 0.8em;
+	font-weight: bold;
+	position: relative;
+	top: 5px;	
+	color: #faeafc;
+	font-family: sans-serif;
+}
+.najnovije_vesti_desno {
+	float: left;	
+	margin-top: 5px;
+}
+.najnovije_vesti_desno > span {
+	font-family: sans-serif;
+	color: #cccccc;
+	font-size: 0.75em;	
+	position: relative;
+	left: 5px;			
+}
+.najnovije_vesti_desno > span:hover {
+	cursor: pointer;
+	color: white;
+	transition: 0.4s ease;
+}
+.search {
+	float: right;
+}
+.top_shadow {
+	width: 100%;
+	height: 42px;
+}
+
+.main_logo > img {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.main_menu_behind {
+	background-color: #cd2122;
+	width: 1160px;
+	height: 59px;	
+}
+.main_menu {
+	width: 1160px;
+	height: 55px;
+	background-color: #2c2c2c;	
+}
+.main_menu > ul {
+	list-style-type: none;	
+}
+.main_menu > ul > li {	
+	float: left;	
+	border-left: 1px solid #383838;	
+	border-right: 1px solid #222222;	
+	padding-left: 20px;	
+	height: 55px;
+	padding-top: 20px;
+	box-sizing: border-box;	
+	position: relative;						
+}
+.main_menu > ul > li:hover {	
+	background-color: #cd2122;	
+	transition: 0.4s ease;
+	cursor: pointer;	
+}
+.main_menu > ul > li:hover .main_menu_submenu {
+	display: block;	
+}
+.main_menu > ul > li:first-child {
+	border: none;
+	background-color: #cd2122;		
+}
+.main_menu > ul > li:nth-child(12) {
+	border-right: none;
+}
+.main_menu > ul > li:nth-child(2) {
+	border-left: none;
+}
+.main_menu > ul > li > a {	
+	color: #dddfde;
+	text-decoration: none;
+	font-size: 0.95em;		
+	margin-right: 15px;
+	letter-spacing: -1px;
+	font-weight: bold;	
+}
+.main_menu > ul > li > a:hover {
+	color: white;
+}
+.menu_arrow {
+	color: #dddfde;
+	font-size: 0.4em;
+	position: relative;
+	left: -10px;
+	top: -3px;
+}
+.main_menu_submenu {
+	z-index: 50;	
+	list-style: none;	
+	position: absolute;
+	display: none;
+	margin-top: 15px;
+}
+.main_menu_submenu > li:hover {
+	background-color: #cd2122;		
+	cursor: pointer;
+}
+.main_menu_submenu > li:first-child {
+	border-top: none;
+}
+.main_menu_submenu > li:last-child {
+	border-bottom: none;
+}
+.main_menu_submenu > li {
+	background-color: #2c2c2c;
+	width: 200px;
+	border-bottom: 1px solid #222222;
+	border-top: 1px solid #383838;
+	display: block;
+	padding: 10px;
+	margin-left: -20px;
+}
+.main_menu_submenu > li > a {
+	text-decoration: none;
+	color: #dddddd;
+	font-size: 0.8em;
+	letter-spacing: -1px;	
+	font-weight: bold;
+}
+#main_menu_responsive {
+	display: none;
+}
+.left_section {
+	position: relative;
+	float: left;
+	width: 180px;
+	height: auto;
+	top: 40px;	
+}
+.left_section:before, .left_section:after {
+	content: " ";
+	display: block;
+}
+.left_section:after {
+	clear: both;
+}
+.left_arhiva {	
+	float: left;		
+	width: 180px;
+	height: auto;
+	padding-top: 3%;	
+}
+.left_arhiva > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.left_arhiva > ul {
+	
+}
+.left_arhiva > ul > li {	
+	margin-left: 9%;
+	font-size: 0.8em;
+	margin-top: 7%;	
+	color: #333333;	
+}
+.left_arhiva > ul > li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: black;
+}
+.left_horoskop {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;
+}
+.left_horoskop > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.vaga_iza {	
+	width: 180px;
+	height: 55px;
+	background-color: #353535;
+	color: #ffffff;		
+	text-align: center;
+	margin-top: 12px;	
+
+}
+.vaga_iza > span {
+	
+}
+.vaga_ispred {
+	width: 174px;
+	height: 50px;
+	border: 1px solid white;
+	position: relative;
+	left: 2px;
+	top: 2px;
+}
+.vaga_ispred > img {
+	float: left;
+	margin-left: 5px;
+}
+.vaga_opis {
+	background-color: #353535;	
+	width: 180px;
+	height: 300px;
+}
+.vaga_opis > span {
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 3px;
+}
+.vaga_opis2 {
+	position: relative;
+	left: 2px;
+	width: 175px;
+	height: 250px;
+	background-color: #ffffff;
+	color: #353535;
+	font-size: 0.75em;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.navidiku {
+	color: white;
+	text-decoration: underline;	
+	position: relative;
+	top: 12px;
+	left: 3px;	
+}
+.left_vicevi {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;
+}
+.left_vicevi > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.left_vicevi > h5 {
+	color: #333333;
+	font-size: 0.8em;
+	margin-top: 20px;	
+}
+.left_vicevi > span {
+	font-size: 0.75em;
+	color: #9e9e9e;	
+}
+.left_vicevi > hr {
+	opacity: 0.2;
+}
+.left_prognoza {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;	
+}
+.left_prognoza > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.prognoza {
+	position: relative;
+	left: 8px;
+}
+.left_kursna {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;		
+}
+.left_kursna > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.left_kursna table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	width: 180px;
+	height: auto;
+}
+.left_kursna > table, tr {
+	border: 1px solid #d8d8d8;	
+}
+.left_kursna > table, tr, td {	
+	color: #333333;	
+	padding: 8px;
+	font-weight: bold;
+	font-size: 0.88em;
+}
+.left_kursna > table > tr > td:first-child {
+	border-top: 1px solid #d8d8d8;
+}
+.NBS {
+	font-size: 0.92em;
+	text-decoration: underline;
+	color: #333333;	
+	padding: 3px 0 3px 7px;
+	background-color: #f6f3eb;		
+}
+.left_citati {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;
+}
+.left_citati > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;	
+}
+.left_citati > p {
+	font-size: 0.8em;
+	color: #333333;	
+	margin-top: 15px;	
+}
+.left_citati > span {
+	font-size: 0.9em;	
+	margin-left: 35%;
+	color: #333333;
+}
+.left_citati > span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: black;
+	transition: 0.5s ease;
+}
+.left_aforizmi {
+	margin-top: 40px;		
+	float: left;
+	clear: both;
+	width: 180px;
+	height: auto;
+}
+.left_aforizmi > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;	
+}
+.left_aforizmi > p {
+	font-size: 0.8em;
+	color: #333333;	
+	margin-top: 15px;	
+}
+.left_aforizmi > span {
+	font-size: 0.9em;	
+	margin-left: 35%;
+	color: #333333;
+}
+.left_aforizmi > span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: black;
+	transition: 0.5s ease;
+}
+
+
+/* SREDINA */
+
+.sredina:before, .sredina:after {
+	content: " ";
+	display: block;
+}
+.sredina:after {
+	clear: both;
+}
+.sredina {			
+	float: left;
+	width: 620px;
+	height: auto;
+	position: relative;
+	top: 17px;
+	left: 2.7%;		
+}
+.naslovna_container {
+
+}
+.naslovna_container > ul {
+	position: relative;
+	top: 30px;
+	left: 34px;
+}
+.naslovna_container > ul > li {
+	float: left;
+	margin-right: 12px;	
+	font-size: 1.7em;
+	opacity: 0.4;	
+}
+.naslovna_container > ul > li:hover {
+	cursor: pointer;
+	opacity: 0.1;
+	transition: 0.5s ease;
+}
+.sredina_naslovna_slika:hover {
+	cursor: pointer;
+}
+.sredina_naslovna_slika > div {
+	position: relative;
+	bottom: 67px;
+	background-color: #cd2122;
+	float: left;
+	margin-left: 15px;
+	padding: 10px;
+	opacity: 1;	
+}
+.sredina_naslovna_slika > div > h5 {
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	color: #dde0e4;
+}
+.sredina_naslovna_slika > div > h5:hover {
+	cursor: pointer;
+	color: #c3cece;
+	transition: 0.5s ease;
+}
+.sredina_najnovijevesti_container {
+	position: relative;
+	top: 30px;	
+	width: 620px;
+	height: auto;
+}
+.sredina_najnovijevesti_container:before, .sredina_najnovijevesti_container:after {
+	content: " ";
+	display: block;
+}
+.sredina_najnovijevesti_container:after {
+	clear: both;
+}
+.sredina_najnovijevesti_linija {
+	width: auto;
+	height: 4px;
+	background-color: #cd2122;
+	position: relative;
+}
+.sredina_najnovijevesti_slikalevo {
+	position: relative;
+	top: -44px;
+	width: 300px;
+	height: 160px;
+	float: left;	
+}
+.sredina_najnovijevesti_slikalevo:hover {
+	opacity: 0.6;
+	transition: 0.4s linear;
+	cursor: pointer;
+}
+.sredina_najnovijevesti_najnovijevesti {
+	background-color: #cd2122;
+	width: 122px;
+	height: 27px;
+	position: absolute;
+	z-index: 1;
+	float: left;
+}
+.sredina_najnovijevesti_najnovijevesti > h5 {
+	color: #ffffff;
+	font-size: 0.8em;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-top: 6px;
+	opacity: 0.9;
+}
+.sredina_najnovijevesti_najnovijevesti > h5:hover {
+	opacity: 1;
+	transition: 0.4s linear;
+	cursor: pointer;
+}
+.sredina_najnovijevesti_slikedesno {    
+    float: right;
+	width: 315px;
+	height: 160px;	
+	position: relative;
+	top: -40px;
+	left: 2px;
+}
+.sredina_najnovijevesti_slikedesno > ul > li {
+	list-style: none;
+	float: left;
+	margin: 5px 0px 2px 8px;
+}
+.sredina_najnovijevesti_slikedesno > ul > li:hover {
+	cursor: pointer;
+}
+.sredina_vesti_container {
+	position: relative;
+	margin-top: 10%;
+	width: 100%;
+	height: auto;	
+}
+.sredina_vesti_container:before, .sredina_vesti_container:after {
+	content: " ";
+	display: block;
+}
+.sredina_vesti_container:after {
+	clear: both;
+}
+.sredina_vesti_levoslike {
+	position: relative;
+	top: 4px;
+	width: 300px;
+	height: auto;		
+}
+.sredina_vesti_levoslike:before, .sredina_vesti_levoslike:after {
+	content: " ";
+	display: block;
+}
+.sredina_vesti_levoslike:after {
+	clear: both;
+}
+.sredina_vesti_levoslike > h4 {
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	color: #333333;
+}
+.sredina_vesti_levoslike > ul {
+	list-style: none;	
+}
+.sredina_vesti_levoslike > ul > li {
+	float: left;
+	color: #aaaaaa;
+	font-size: 0.7em;
+	margin-right: 10px;	
+}
+.sredina_vesti_levoslike > ul > li > i {
+	font-size: 1.2em;
+	margin-right: 2px;
+}
+.sredina_vesti_levoslike > p {
+	float: left;
+	margin-top: 15px;
+	font-size: 0.8em;
+	color: #333333;	
+}
+.sredina_vesti_procitajvise {
+	position: relative;
+	top: 10px;
+	float: left;
+	background-color: #cd2122;
+	padding: 6px;		
+}
+.sredina_vesti_procitajvise:hover {
+	cursor: pointer;
+	background-color: #333333;
+	transition: 0.4s ease;
+}
+.sredina_vesti_procitajvise > h5 {
+	color: #ffffff;			
+}
+.sredina_vesti_desnoslike {
+	position: relative;
+	top: 8px;
+	width: 300px;
+	height: auto;		
+	float: right;		
+}
+.list_none {
+	list-style: none;
+}
+.sredina_vesti_desnoslike:after, .sredina_vesti_desnoslike:before {
+	content: " ";
+	display: block;
+}
+.sredina_vesti_desnoslike:after {
+	clear: both;
+}
+.thumbnail_vesti {
+	float: left;
+	margin-right: 15px;	
+}
+.sredina_vesti_desnoslike > ul > li > span > ul > li {
+	float: left;
+	color: #aaaaaa;
+	font-size: 0.7em;	
+	list-style: none;
+	margin-right: 10px;
+}
+.sredina_vesti_desnoslike > ul > li > span > ul > li > i {
+	font-size: 1.2em;
+	margin-right: 2px;
+}
+
+.sredina_vesti_desnodesno > h4 {
+	color: #353535;					
+}
+
+.sredina_vesti_desnodesno2 {
+	position: relative;
+	top: 35px;
+}
+.thumbnail_vesti2 {
+	float: left;
+	margin-right: 15px;	
+	clear: both;	
+}
+.sredina_vesti_desnoslike2 > ul > li > span > ul > li {
+	float: left;
+	color: #aaaaaa;
+	font-size: 0.7em;	
+	list-style: none;
+	margin-right: 10px;
+}
+.sredina_vesti_desnoslike2 > ul > li > span > ul > li > i {
+	font-size: 1.2em;
+	margin-right: 2px;
+}
+
+.sredina_vesti_desnodesno2 > h4 {
+	color: #353535;		
+}
+.sredina_vesti_desnodesno3 {
+	position: relative;
+	top: 70px;
+}
+
+/* desna sekcija */
+
+.desni_section {
+	width: 300px;
+	height: auto;	
+	float: right;
+	position: relative;
+	top: 49px;
+}
+.desni_section:before, desni_section:after {
+	content: " ";
+	display: block;
+}
+.desni_section:after {
+	clear: both;
+}
+.desni_pratitenas {
+	width: 300px;
+	height: auto;	
+
+}
+.desni_pratitenas:before, .desni_pratitenas:after {
+	content: " ";
+	display: block;
+}
+.desni_pratitenas:after {
+	clear: both;
+}
+.desni_pratitenas > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	letter-spacing: -1px;	
+	border-bottom: 4px solid #333333;
+}
+.desni_pratitenas > .desni_pratitenas_icon_container > ul {
+	list-style: none;		
+}
+.desni_pratitenas > .desni_pratitenas_icon_container > ul > li {
+	float: left;	
+}
+.desni_pratitenas_icon_container {
+	position: relative;
+	top: 15px;
+
+}
+.desni_pratitenas_icon_container:before,  .desni_pratitenas_icon_container:after {
+	content: " ";
+	display: block;
+}
+.desni_pratitenas_icon_container:after {
+	clear: both;
+}
+.desni_pratitenas > .desni_pratitenas_icon_container > ul > li {
+	font-size: 1.2em;
+	margin-right: 2.1px;	
+	padding: 5px 10px 3px 10px;	
+	color: #ffffff;
+	border-radius: 3px;	
+}
+.desni_pratitenas_icon_container > ul > li:first-child {
+	background-color: #fad06d;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(2) {
+	background-color: #fc4e4e;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(3) {
+	background-color: #758bbc;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(4) {
+	background-color: #7dc8eb;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(5) {
+	background-color: #f76666;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(6) {
+	background-color: #94cde0;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(7) {
+	background-color: #db5e62;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(8) {
+	background-color: #86a6bf;
+}
+.desni_pratitenas_icon_container > ul > li:first-child:hover {
+	background-color: #caaa5e;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(2):hover {
+	background-color: #d44242;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(3):hover {
+	background-color: #5e6f95;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(4):hover {
+	background-color: #65a4c1;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(5):hover {
+	background-color: #c75454;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(6):hover {
+	background-color: #749daa;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(7):hover {
+	background-color: #ab4e51;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_pratitenas_icon_container > ul > li:nth-child(8):hover {
+	background-color: #667c8e;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.desni_popularno {
+	position: relative;
+	top: 50px;
+	width: 300px;
+	height: 45px;	
+}
+.desni_popularno:before. .desni_popularno:after {
+	content: " ";
+	display: block;
+}
+.desni_popularno:after {
+	clear: both;
+}
+.desni_popularno > ul {
+	list-style: none;
+}
+.desni_popularno > ul > li {
+	float: left;
+	background-color: #2c2c2c;	
+	color: #ffffff;
+	width: 70px;
+	padding: 15px;	
+}
+.desni_popularno > ul > li:first-child {
+	background-color: #cd2122;
+}
+.desni_popularno > ul > li > h3 {
+	font-size: 0.8em;
+}
+.desni_vesti {	
+	width: 300px;
+	height: auto;	
+	float: left;
+
+}
+.desni_vesti > ul > li {	
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.desni_vesti_container {
+	
+}
+.desni_vesti > ul > li {
+	list-style-type: none;	
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 10px;		
+}
+.desni_vesti_slika {
+	float: left;
+}
+.desni_vesti_slika > img {
+
+}
+.desni_vesti_desnevesti {	
+	float: right;
+	width: 75%;
+}
+.desni_vesti_desnevesti > h3 {
+	color: #333333;	
+	font-size: 0.75em;
+	padding-bottom: 5px;		
+}
+.desni_vesti_desnevesti > i {	
+	color: #afadad;
+	font-size: 0.9em;
+}
+.desni_vesti_desnevesti > i > span {
+	color: #afadad;
+	font-size: 0.8em;	
+}
+.desni_facebook_container {	
+	position: relative;
+	float: left;
+	top: 40px;
+	width: 100%;
+}
+.desni_facebook_container > h4 {
+	color: #333333;	
+	font-size: 1.1em;
+	border-bottom: 4px solid #333333;
+}
+
+/* pretposlednji oglasi */
+
+.bottom_najnoviji_oglasi_container {	
+	width: 1160px;
+	height: 300px;
+	position: relative;
+	left: -211px; 
+	top: 50px; 	
+	clear: both;
+}
+.bottom_najnoviji_oglasi_container:before, .bottom_najnoviji_oglasi_container:after {
+	content: " ";
+	display: block;
+}
+.bottom_najnoviji_oglasi_container:after {
+	clear: both;
+}
+.bottom_najnoviji_oglasi_linija {
+	width: 100%;
+	height: 4px;
+	background-color: #ce2222;
+}
+.bottom_najnoviji_oglasi_linija > ul > li {
+	float: left;
+	position: relative;
+	top: 4px;	
+	list-style: none;
+	width: 284px;
+	height: 150px;	
+	margin-right: 8px;		
+}
+.bottom_najnoviji_oglasi_linija > ul > li:last-child {
+	margin-right: 0;
+}
+.bottom_najnoviji_oglasi_linija > ul > li > span {
+	color: #434343;
+	font-size: 0.9em;
+}
+.bottom_najnoviji_oglasi_linija > ul > li > i {	
+	color: #aaaaaa;
+	font-size: 0.8em;
+}
+.bottom_najnoviji_oglasi_linija > ul > li > i > h5 {
+	font-size: 0.85em;
+	display: inline;
+}
+
+.bottom_najnoviji_oglasi_kocka {
+	background-color: #ce2222;
+	float: left;
+	padding: 10px 5px 5px 5px;	
+	position: absolute;	
+}
+.bottom_najnoviji_oglasi_kocka > h3 {
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+/*footer*/
+
+
+#footer {
+	background-color: #333333;
+	width: 100%;
+	height: 500px;	
+	float: left;	
+}
+.footer_container {
+	width: 100%;
+	height: auto;
+	margin-top: 3%;	
+}
+.footer_container:before, .footer_container:after {
+	content: " ";
+	display: block;
+}
+.footer_container:after {
+	clear: both;
+}
+.footer_informacije {
+	width: 30%;
+	height: auto;
+	float: left;	
+}
+.footer_informacije > h4 {
+	color: #dcdec9;
+	letter-spacing: -1px;
+	border-bottom: 4px solid #666666;
+	padding-bottom: 10px;
+}
+.footer_informacije > ul {
+	list-style: none;
+	margin-top: 10px;
+}
+.footer_informacije > ul > li {
+	border-bottom: 1px solid #232323;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #444444;
+	margin-left: 15px;	
+}
+.footer_informacije > ul > li:nth-child(1) {
+	border-top: none;
+}
+.footer_informacije > ul > li:nth-child(8) {
+	border-bottom: none;
+}
+.footer_informacije > ul > li > h5 {
+	color: #dcdec9;
+	font-weight: lighter;
+}
+.footer_anketa {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-left: 5%;	
+}
+.footer_anketa > h4 {
+	color: #dcdec9;
+	letter-spacing: -1px;
+	border-bottom: 4px solid #666666;
+	padding-bottom: 10px;
+}
+.footer_anketa > p {
+	font-weight: lighter;
+	font-size: 0.9em;
+	text-align: center;
+	color: #dcdec9;
+	margin-top: 10px;
+}
+.footer_anketa > ul {
+	list-style: none;
+	margin-top: 20px;
+}
+.footer_anketa > ul > li {
+	border-bottom: 1px solid #232323;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #444444;
+	margin-left: 15px;		
+}
+.footer_anketa > ul > li:nth-child(1) {
+	border-top: none;
+}
+.footer_anketa > ul > li:nth-child(6) {
+	border-bottom: none;
+}
+.footer_anketa > ul > li > h5 {
+	display: inline;
+	color: #dcdec9;
+	font-weight: lighter;
+}
+.footer_anketa > p > input[type="button"] {
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+.footer_novosti {
+	width: 30%;
+	height: auto;
+	float: right;				
+}
+.footer_novosti > h4 {
+	color: #dcdec9;
+	letter-spacing: -1px;
+	border-bottom: 4px solid #666666;
+	padding-bottom: 10px;	
+}
+.footer_forma {
+	width: 50%;
+	margin-top: 5%;
+}
+.footer_forma > div {
+	margin-top: 5%;
+}
+.footer_forma > div > label {
+	color: #dcdec9;
+}
+.footer_forma > div > input[type="text"] {
+	height: 35px;
+}
+.footer_forma > div > input[type="button"] {
+	padding: 5px 10px 5px 10px;	
+}
+.footer_linija {
+	width: auto;
+	height: 4px;
+	background-color: #cd2122;
+	clear: both;
+	position: relative;
+	top: 50px;
+}
+.footer_copyright {
+	width: 100%;
+	height: auto;	
+	position: relative;
+	top: 60px;	
+}
+.footer_copyright > span {
+	color: #dcdec9;
+	font-size: 0.8em;
+	font-weight: lighter;
+}
+.footer_social {	
+	float: right;	
+}
+.footer_social > ul {
+	list-style: none;
+}
+.footer_social > ul > li {	
+	margin-left: 10px;
+	opacity: 0.5;
+	float: left;
+	color: #ccc;
+	font-size: 1.3em;
+}
+#footer_fullscreen {
+	width: 100%;
+	height: 501px;
+	position: relative;
+	top: -501px;
+	background-color: #333333;
+	z-index: -1;
+}
+@media screen and (max-width: 1124px) {
+	.left_section {
+		display: none;
+	}	
+	#main_wrapper {
+		width: 1000px;
+	}
+	
+}
+@media screen and (max-width: 850px) {
+	.desni_section {
+		display: none;
+	}
+	#main_wrapper {
+		width: 780px;
+	}
+	.bottom_najnoviji_oglasi_container {
+		display: none;
+	}
+	.footer_container {
+		position: relative;
+		top: 10%;
+	}
+	#footer {
+		position: relative;
+		top: 50px;
+		width: 100%;
+		height: 520px;
+	}
+	#footer_fullscreen {
+		display: none;
+	}
+	.main_menu_behind {
+		display: none;		
+	}
+	.main_menu {
+		display: none;	
+	}
+	#main_menu_responsive {
+	display: block;	
+	float: left;
+	width: 75%;
+	position: relative;
+	left: 5%;
+}
+	#main_menu_responsive > select {
+		width: 100%;
+		background-color: #222222;
+		color: #ffffff;
+		padding: 5px;
+		border-bottom: 4px solid #cd2122;
+	}		
+}
+@media screen and (max-width: 600px) {
+	#main_wrapper {
+		width: 550px;
+	}
+	.topmenu_front {
+		width: 550px;
+	}
+	.topmenu_behind {
+		
+	}
+	.najnovije_vesti {
+		display: none;
+	}
+	.najnovije_vesti_desno {
+		display: none;
+	}
+	.social_icons {
+		left: -30%;
+	}
+	.search {
+		position: relative;
+		left: -15%;
+	}
+	.naslovna_container {
+
+	}
+	.sredina_najnovijevesti_container {
+		width: 80%;
+		height: auto;
+		display: none;
+	}
+	.sredina_najnovijevesti_slikalevo {
+		width: 200px;
+		height: 100px;
+	}
+	.sredina_najnovijevesti_slikalevo > img {
+		width: 180px;
+		height: 150px;
+	}
+	.sredina_najnovijevesti_slikedesno {
+		position: relative;
+		top: -149px;		
+	}
+	.sredina {
+		width: 500px;
+	}
+	.sredina_vesti_levoslike > img {
+		width: 180px;
+		height: 110px;
+	}
+	#footer {
+		height: auto;
+		width: 500px;
+		clear: both;
+	}
+	.footer_container {
+		
+		height: 900px;
+	}
+	.footer_informacije {
+		width: 100%;
+	
+	}
+	.footer_anketa {
+		width: 100%;
+		position: relative;
+		left: -5%;
+		top: 15px;
+	}
+	.footer_novosti {
+		width: 100%;
+		position: relative;
+		top: 40px;
+	}
+	.footer_copyright {
+		display: none;
+	}
+}
