@@ -506,7 +506,7 @@ body {
 	float: left;
 	margin-left: 15px;
 	padding: 10px;
-	opacity: 1;	
+	opacity: 0;	
 }
 .sredina_naslovna_slika > div > h5 {
 	font-size: 1.5em;
